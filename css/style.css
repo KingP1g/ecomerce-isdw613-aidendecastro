@@ -1,0 +1,69 @@
+/* FILEPATH: /c:/Users/Alpha/Documents/Work and Code/ecomerce-isdw613-aidendecastro/css/style.css */
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #6e2185;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Add your custom styles below this line */
+
+
+.table-header {
+    background-color: #ff0000;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+}
+
+th {
+    background-color: #6e2185;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
