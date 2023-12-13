@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=], initial-scale=1.0">
+        <title>Possicionamiento</title>
+        <style>
+            #firstElement {
+                position: relative;
+                top: 30px;
+                left: 70px;
+                background-color:blueviolet;
+                width: 200px;
+                height: 200px;
+                color: white;
+                z-index: 1 ;
+            }
+            #secondElement{
+                position: relative;
+                background-color: blue;
+                width: 200px;
+                height: 200px;
+                color: white;
+            }
+            #container{
+                background-color: cadetblue;
+                width: 500px;
+                height: 500px;
+                color: white;
+                text-align: center;
+            }
+            #child{
+                position: absolute;
+                left: 100px;
+                top: 100px;
+                right: 100px;
+                bottom: 100px;
+                background-color: coral;
+                width: 200px;
+                height: 200px;
+                color: white;
+            }
+        </style>
+        <div id="firstElement">
+            <p>First Element</p>
+        </div>
+        <div id="secondElement">
+            <p>Second Element</p>
+        </div>
+        <div id="container">
+            <div id="child">
+                child element
+            </div>
+        </div>
+
+    </head>
+</html>
