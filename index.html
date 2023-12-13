@@ -3,35 +3,79 @@
     <head>
         <title>E-comerce</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
     <body>
-        <h1>E-comerce</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Productos</a></li>            
-            <li><a href="about.html">Acerca de</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
-        <h1>Productos en oferta</h1>
-        <table>
-            <tr>
-                <td>
-                    <a href="product.html">
-                        <img src="/assets/img/producto1.png" height="200" alt="Producto 1">
-                    <p>Producto 1</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="/assets/img/producto2.png" height="200" alt="Producto 2">
-                    <p>Producto 2</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="/assets/img/producto3.png" height="200" alt="Producto 3">
-                    <p>Producto 3</p>
-                </td>
-            </tr>
-    </body>
-</html>
+        
+        <!DOCTYPE html>
+        <html lang="es">
+            <head>
+                <title>E-comerce</title>
+                <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            </head>
+            <body>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">E-commerce</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <h1 style="padding: 40px;">Productos en oferta</h1>
+                <div class="container mt-4">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Productos</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/assets/img/producto1.png" class="card-img-" alt="Producto 1" width="100" height="100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Producto 1</h5>
+                                    <a href="product.html" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/assets/img/producto2.png" class="card-img-" alt="Producto 2" width="100" height="100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Producto 2</h5>
+                                    <a href="product.html" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="/assets/img/producto3.png" class="card-img-" alt="Producto 3" width="100" height="100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Producto 3</h5>
+                                    <a href="product.html" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
